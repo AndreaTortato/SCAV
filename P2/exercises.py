@@ -120,7 +120,6 @@ read_video_info("bunny.mp4")
 #First we obtain a frame, we tranform it to BnW and then we add them up again
 #(not working for now)
 
-import subprocess
 import sys
 sys.path.insert(1, '../P1/exercise4.py')
 from exercise4 import transform_to_BnW
