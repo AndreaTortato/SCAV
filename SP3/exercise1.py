@@ -36,7 +36,8 @@ def resize_video(input_video, resolution):
 
 
 def convert_to_format(input_video, format):
-    output_file = f"{input_video[:-4]}_{format}.mkv"  # Assume output format is webm for VP8, VP9
+
+    output_file = f"{input_video[:-4]}_{format}.mkv"  # Asst is webm foume output formar VP8, VP9
 
     try:
         # Convert video to the specified format using ffmpeg
@@ -77,5 +78,5 @@ class VideoConverter:
 # convert_to_format("bunny.mp4", "vp8")
 
 # automized task
-video_converter = VideoConverter("bunny.mp4", "720p", "vp8")
+video_converter = VideoConverter("bunny.mp4", "720p", "av1")
 resulting_video = video_converter.process_video()

@@ -34,7 +34,7 @@ input_video_1 = convert_to_format("bunny_720p.mp4", "vp8")
 input_video_2 = convert_to_format("bunny_720p.mp4", "vp9")
 
 # side-by-side comparison video
-compare_videos(input_video_1, input_video_2, "comparison_output.mp4")
+# compare_videos(input_video_1, input_video_2, "comparison_output.mp4")
 
 # In the case of comparing vp8 and vp9, the video using the vp9 format has a better quality
 # than the other. Infact it has a size of around 65Mb while the vp8 about 30Mb.
