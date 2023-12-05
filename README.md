@@ -1,4 +1,4 @@
-*SP3 GUI*
+##SP3 GUI##
 
 The following GUI is able to play and pause any video (in format .mp4 or .mkv) and can perform some operations.
 When the application starts we can see a few options:
